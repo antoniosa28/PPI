@@ -11,12 +11,6 @@ main{
   background-color: #ffffff;
 }
 
-section{
-  margin-top: 0px;
-  padding-bottom: 5px;
-  border-top: solid 1px gray
-}
-
 nav{
   background-color: #5b885f;
   padding: 3% 0;  
@@ -64,6 +58,10 @@ a:hover {
 
 a:active, p:active { 
   color: gray; 
+}
+
+.image-container {
+  width: 100%;
 }
 
 div:has( img) {
